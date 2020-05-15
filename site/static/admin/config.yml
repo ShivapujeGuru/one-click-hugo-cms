@@ -17,6 +17,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
+    create: true # Allow users to create new documents in this collection
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
