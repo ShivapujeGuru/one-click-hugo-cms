@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="33" viewBox="0 0 121 33">
+    <defs>
+        <style>
+            .cls-1{fill:#fff;font-size:16px;font-family:Arial-BoldMT,Arial;font-weight:700}
+        </style>
+    </defs>
+    <text id="RESERVE_BANK_OF_INDIA" class="cls-1" data-name="RESERVE BANK OF INDIA" transform="translate(0 14)">
+        <tspan x="0" y="0">RESERVE</tspan><tspan x="0" y="16">BANK OF INDIA</tspan>
+    </text>
+</svg>
