@@ -196,7 +196,8 @@ body {
         padding: 20px 15px 16px 30px;
         border-radius: 5px;
         box-shadow: 0 0 5px 0 #decebf;
-        position: relative; }
+        position: relative;
+        margin: 15px 10px; }
         #product-listing .rupeek-posts ul .city-render li:before {
           position: absolute;
           left: 10px;
