@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
-  {{ partial "head" . }}
-  <body class="sans-serif">
+{{ partial "head" . }}
+
+<body class="sans-serif">
+  <div id="product-listing">
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
@@ -10,8 +12,12 @@
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
     {{ $script := .Site.Data.webpack.main }}
+
     {{ with $script.js }}
-      <script src="{{ relURL . }}"></script>
+    <script src="{{ relURL . }}"></script>
     {{ end }}
-  </body>
+
+  </div>
+</body>
+
 </html>

@@ -1,0 +1,226 @@
+body {
+    margin: 0; }
+    body * {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4;
+      letter-spacing: 0.6px;
+      margin: auto;
+      color: #484848; }
+  
+  #product-listing {
+    max-width: 520px;
+    margin: 0 auto; }
+    #product-listing p {
+      font-size: 15px; }
+    #product-listing .site-header {
+      height: 60px;
+      padding: 10px 0;
+      background-image: linear-gradient(93deg, #f47c2b, #f47c2b 37%, #ffcd28 148%);
+      align-items: center;
+      display: flex;
+      justify-content: space-between; }
+      #product-listing .site-header .rupeek-and-rbi {
+        display: flex;
+        width: 65%; }
+        #product-listing .site-header .rupeek-and-rbi .rupeek-logo {
+          width: 50%;
+          margin-right: 10%; }
+          #product-listing .site-header .rupeek-and-rbi .rupeek-logo img {
+            width: 100%; }
+        #product-listing .site-header .rupeek-and-rbi .rbi-logo {
+          width: 40%;
+          align-self: flex-end; }
+          #product-listing .site-header .rupeek-and-rbi .rbi-logo h4 {
+            margin: 0 0 4px;
+            font-size: 11px;
+            color: #ffff;
+            font-weight: normal; }
+          #product-listing .site-header .rupeek-and-rbi .rbi-logo img {
+            width: 100%; }
+      #product-listing .site-header .menu ul {
+        list-style: none;
+        padding-left: 0; }
+        #product-listing .site-header .menu ul li {
+          border-radius: 6px;
+          width: 26px;
+          height: 3px;
+          background-color: #ffff;
+          margin: 6px 0; }
+    #product-listing .city-with-rupeek {
+      margin: 20px; }
+      #product-listing .city-with-rupeek h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px; }
+        #product-listing .city-with-rupeek h1 span {
+          color: #fca942; }
+      #product-listing .city-with-rupeek .meta-data .three-Fs {
+        margin-top: 40px;
+        padding-left: 20px; }
+        #product-listing .city-with-rupeek .meta-data .three-Fs li {
+          list-style: none;
+          margin-bottom: 25px;
+          position: relative; }
+          #product-listing .city-with-rupeek .meta-data .three-Fs li::before {
+            position: absolute;
+            top: 7px;
+            left: -20px;
+            content: "";
+            background-color: #fca942;
+            border-radius: 50%;
+            width: 8px;
+            height: 8px; }
+          #product-listing .city-with-rupeek .meta-data .three-Fs li h4 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px; }
+    #product-listing .rupeek-advantages {
+      background-color: #fafafa;
+      padding: 20px; }
+      #product-listing .rupeek-advantages h2 {
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px; }
+      #product-listing .rupeek-advantages .card-wrapper {
+        display: flex;
+        flex-wrap: wrap; }
+        #product-listing .rupeek-advantages .card-wrapper .card {
+          background-color: #ffff;
+          margin: 5px;
+          padding: 12px;
+          width: 36%;
+          display: flex;
+          border-radius: 5px; }
+          #product-listing .rupeek-advantages .card-wrapper .card .image {
+            margin-right: 10px; }
+          #product-listing .rupeek-advantages .card-wrapper .card p {
+            font-size: 10px;
+            font-weight: 500; }
+    #product-listing .apply-easy-steps {
+      margin: 20px 15px; }
+      #product-listing .apply-easy-steps .headings {
+        text-align: center; }
+        #product-listing .apply-easy-steps .headings h2 {
+          font-size: 22px;
+          font-weight: 600; }
+        #product-listing .apply-easy-steps .headings p {
+          font-size: 16px;
+          font-weight: 500; }
+      #product-listing .apply-easy-steps .each-steps {
+        border: solid 1px #dadada;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 20px 0; }
+        #product-listing .apply-easy-steps .each-steps .step {
+          display: flex;
+          margin-bottom: 20px; }
+          #product-listing .apply-easy-steps .each-steps .step .image {
+            width: 100%;
+            margin: 5px 10px; }
+            #product-listing .apply-easy-steps .each-steps .step .image img {
+              width: 100%; }
+          #product-listing .apply-easy-steps .each-steps .step .description h4 {
+            font-size: 16px;
+            font-weight: bold; }
+          #product-listing .apply-easy-steps .each-steps .step .description p {
+            font-size: 12px;
+            font-weight: 500; }
+          #product-listing .apply-easy-steps .each-steps .step:last-child {
+            margin-bottom: 0; }
+    #product-listing .rupeek-quick {
+      margin: 20px 15px; }
+      #product-listing .rupeek-quick .instant-credit {
+        background-color: #fff8ef;
+        border-radius: 5px;
+        margin: 20px 0;
+        padding: 15px;
+        display: flex; }
+    #product-listing .location-select {
+      margin: 25px 0; }
+      #product-listing .location-select .selection-box {
+        padding: 20px;
+        background-color: #f2f2f2; }
+        #product-listing .location-select .selection-box p {
+          color: #969696; }
+          #product-listing .location-select .selection-box p span {
+            color: #484848;
+            font-weight: bold; }
+        #product-listing .location-select .selection-box .list-of-localities {
+          background-color: #ffff;
+          width: 100%;
+          padding: 10px;
+          border: none;
+          margin: 10px 0;
+          font-size: 14px;
+          font-weight: 500;
+          color: #727272; }
+          #product-listing .location-select .selection-box .list-of-localities:focus {
+            outline: none; }
+      #product-listing .location-select .meta-description {
+        margin: 20px 15px; }
+    #product-listing .low-interest-gold-loan {
+      padding: 30px 15px;
+      background-color: #fff8ef;
+      text-align: center; }
+      #product-listing .low-interest-gold-loan h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 30px; }
+      #product-listing .low-interest-gold-loan .phone-num {
+        width: 90%;
+        display: block;
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 5px;
+        font-size: 15px;
+        color: #727272; }
+      #product-listing .low-interest-gold-loan .apply-now {
+        border-radius: 30px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-image: linear-gradient(to bottom, #fe9411, #ff6300);
+        padding: 12px;
+        width: 90%;
+        margin: 10px auto;
+        font-size: 18px;
+        color: #ffff; }
+    #product-listing .rupeek-posts ul {
+      margin: 10px;
+      list-style: none;
+      padding-left: 0; }
+      #product-listing .rupeek-posts ul .city-render a {
+        color: inherit;
+        text-decoration: none; }
+      #product-listing .rupeek-posts ul .city-render li {
+        background-color: #fafafa;
+        padding: 20px 15px 16px 30px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 0 #decebf;
+        position: relative; }
+        #product-listing .rupeek-posts ul .city-render li:before {
+          position: absolute;
+          left: 10px;
+          top: 18px;
+          width: 15px;
+          height: 20px;
+          content: " ";
+          background-image: url("https://images.vexels.com/media/users/3/142675/isolated/preview/84e468a8fff79b66406ef13d3b8653e2-house-location-marker-icon-by-vexels.png");
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat; }
+        #product-listing .rupeek-posts ul .city-render li h4 {
+          font-size: 16px;
+          font-weight: bold;
+          background: -webkit-linear-gradient(93deg, #f47c2b, #f47c2b 37%, #ffcd28 148%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin-bottom: 2px; }
+        #product-listing .rupeek-posts ul .city-render li p {
+          font-size: 12px; }
+        #product-listing .rupeek-posts ul .city-render li .read-more {
+          font-size: 14px;
+          padding: 0;
+          margin-top: 10px; }
+  
+  /*# sourceMappingURL=style.css.map */
+  
